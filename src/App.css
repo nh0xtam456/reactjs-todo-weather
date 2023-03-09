@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.formne{
+  margin-bottom:10px ;
+}
+
+.container{
+  margin: 20px 0 0 20px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,8 +32,184 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
+}
+
+/* Weather */
+
+.index {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.total-index-inside {
+  margin:10px 20px;
+}
+
+.Total{
+
+}
+
+.Searchcomp{
+  margin-left:100px;
+  text-align:center;
+}
+
+.Total h1
+{
+  color:white;
+  margin-left:150px;
+  text-align: center;
+}
+
+body {
+  background-color: #072345;;
+}
+
+.searcharea {
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  color:white;
+  border-color:white;
+  background-color: #072345;
+}
+
+.header-index-inside{
+  position:relative;
+  width:150px;
+  height:50px;
+  background-color: white;
+  left:25px;
+}
+
+.index-inside{
+  position:relative;
+  background-color: white;
+  width:100%;
+}
+
+.index-inside .day {
+  position:absolute;
+  width:100%;
+  top:25px
+}
+
+.index-inside h3{
+  position:absolute;
+  font-size: 30px;
+  top:50px;
+  left:20px;
+}
+
+.icon{
+  font-size:40px;
+  
+}
+
+.temp-index-inside{
+  position:relative;
+  width: 30px;
+  height: 30px;
+}
+
+.temp-index-inside .Temp{
+  position:absolute;
+  width: 100px;
+  height: 30px;
+  left:10px;
+  font-size:25px;
+}
+
+.temp-index-inside .Cel {
+  position: absolute;
+  bottom:15px;
+  right:-95px;
+  width:20px;
+  height: 20px;
+}
+
+.index-inside .icon-index-inside{
+  position:absolute;
+  top:120px;
+  left:70px;
+}
+
+.code{
+  position: absolute;
+  top:-5px;
+  width:13px;
+  height: 13px;
+  background-color: #fa6800;
+  color:white;
+  font-size:10px;
+}
+
+::placeholder{
+  color:white
+}
+
+input:focus {
+  outline:none;
+}
+
+.buttonne{
+  background-color: red;
+  border-radius: 5px;
+  color:white;
+  padding:10px;
+  margin-left:10px;
+  border-color:white;
+}
+
+.index-inside{
+  border:1px solid red;
+  border-radius: 10px;
+  margin: 10px 20px ;
+  background-color: white;
+  width:100%;
+  text-align: center;
+}
+
+.index-inside h4,h3,span,p{
+  background-color: white;
+} 
+
+/* Weather */
+
+
+/* 
+.addtodo {
+  padding:15px
+
+}
+
+.buttontodo{
+  padding:0 25px
+}
+
+.inputaddtodo {
+  padding: 0 15px;
+}
+
+.divtablene{
+    width: 300px;
+    height: 200px;
+    overflow: scroll;
+    border:1px solid black;
+}
+
+.tablene {
+  padding:40px;
+
+} 
+
+.form span {
+  
+  margin-right: 15px;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +219,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
